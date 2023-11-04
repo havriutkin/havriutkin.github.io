@@ -36,7 +36,7 @@ function BackgroundLayout(){
                     key={index}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 2 }}
                     style={{ position: 'absolute', top: `${pos.y}vh`, left: `${pos.x}vw`}}
                 >
                     <motion.div
