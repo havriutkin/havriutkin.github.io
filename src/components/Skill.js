@@ -3,9 +3,10 @@ import { motion } from "framer-motion";
 function Skill({name, icon}){
     return (
         <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
+            initial={{ opacity: 0, scale: 0}}
+            whileInView={{ opacity: 1, scale: 1}}
+            viewport={{once: true}}
+            transition={{ duration: 1.5 }}
             className="w-full
                     mt-2 p-3 
                     border-b border-solid border-white
