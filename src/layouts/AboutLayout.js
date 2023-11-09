@@ -2,7 +2,7 @@ import About from "../components/About";
 
 function AboutLayout(){
     return (
-        <div className="col-span-3 flex justify-center items-center">
+        <div className=" h-screen flex justify-center items-center">
             <About/>
         </div>
     );
