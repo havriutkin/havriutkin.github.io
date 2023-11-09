@@ -7,9 +7,8 @@ function Skill({name, icon}){
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
             className="w-full
-                    p-3 
-                    bg-gradient-to-br from-blush-pink-400 to-blush-pink-600
-                    border border-solid border-white
+                    mt-2 p-3 
+                    border-b border-solid border-white
                     text-black
                     flex justify-between items-center"
         >
