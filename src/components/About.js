@@ -9,7 +9,7 @@ function About(){
                 scale: 0.1, 
                 rotate: -90, 
             }}
-            animate={{ 
+            whileInView={{ 
                 scale: [0.1, 0.1, 1], 
                 rotate: [-90, 0, 0],
             }}
@@ -18,6 +18,7 @@ function About(){
                 ease: "easeInOut",
                 times: [0, 0.5, 1]
             }}
+            viewport={{once: true}}
             className="w-3/4 h-1/2 md:w-1/2 md:h-3/4
                     p-3
                     bg-gradient-to-br from-blush-pink-400 to-blush-pink-800
