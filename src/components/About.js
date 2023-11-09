@@ -5,9 +5,19 @@ function About(){
 
     return(
         <motion.div 
-            initial={{ opacity: 0, scale: 0, rotate: -90 }}
-            animate={{ opacity: 1, scale: 1, rotate: 0 }}
-            transition={{ duration: 1.5}}
+            initial={{ 
+                scale: 0.1, 
+                rotate: -90, 
+            }}
+            animate={{ 
+                scale: [0.1, 0.1, 1], 
+                rotate: [-90, 0, 0],
+            }}
+            transition={{ 
+                duration: 1.5,
+                ease: "easeInOut",
+                times: [0, 0.5, 1]
+            }}
             className="w-3/4 h-1/2 md:w-1/2 md:h-3/4
                     p-3
                     bg-gradient-to-br from-blush-pink-400 to-blush-pink-800

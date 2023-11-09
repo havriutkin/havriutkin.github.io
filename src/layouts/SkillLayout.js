@@ -1,5 +1,6 @@
 import Skill from "../components/Skill";
 
+
 function SkillLayout(){
     const skillNames = ['JS', 'React', 'Redux', 'NodeJS', 'ExpressJS', 'TailwindCSS', 
                     'FramerMotion', 'PostgreSQL', 'Python'];
@@ -10,7 +11,7 @@ function SkillLayout(){
             <h2 className="text-white font-orbitron font-bold text-lg m-2 md:text-xl md:m-4">MY SKILLS</h2>
             <div className="w-full 
                             flex flex-col justify-around items-center
-                            bg-gradient-to-br from-blush-pink-400 to-blush-pink-600
+                            bg-gradient-to-br from-blush-pink-400 to-blush-pink-800
                             border border-solid border-white 
                             drop-shadow-glow">
                 {skillNames.map(skill => (
