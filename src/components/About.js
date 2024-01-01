@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import personIcon from "../assets/person.png";
 
+//drop-shadow-glow
 function About(){
 
     return(
@@ -24,8 +25,9 @@ function About(){
                     bg-gradient-to-br from-blush-pink-400 to-blush-pink-800
                     border-solid border border-white rounded-md border-opacity-100
                     text-black
-                    drop-shadow-glow
-                    flex flex-col justify-around items-center"
+                    flex flex-col justify-around items-center
+                    transition-shadow duration-500
+                    hover:shadow-neon"
         >
             <img src={personIcon} alt="Person icon" className="h-1/2"></img>
             <div className="font-orbitron text-center">

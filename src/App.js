@@ -2,6 +2,7 @@ import './App.css';
 
 import AboutLayout from './layouts/AboutLayout';
 import SkillLayout from './layouts/SkillLayout';
+import ProjectLayout from './layouts/ProjectLayout';
 
 /*
   TODO: 
@@ -13,7 +14,7 @@ function App() {
     <div className="flex flex-col justify-around items-center">
       <AboutLayout/>
       <SkillLayout/>
-      <AboutLayout/>
+      <ProjectLayout/>
     </div>
   );
 }
