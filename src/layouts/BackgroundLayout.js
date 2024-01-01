@@ -30,7 +30,7 @@ function BackgroundLayout(){
     ];
 
     return (
-        <div className="fixed top-0 left-0 w-full h-full overflow-hidden">
+        <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10">
             {arrowPositions.map((pos, index) => (
                 <motion.div
                     key={index}
