@@ -2,12 +2,10 @@ import './App.css';
 
 import AboutLayout from './layouts/AboutLayout';
 import SkillLayout from './layouts/SkillLayout';
-import BackgroundLayout from './layouts/BackgroundLayout';
 
 /*
   TODO: 
-    1. Replace PostgreSQL logo to .svg
-    2. Make SkillLayout responsive
+    1. Make SkillLayout responsive
 */
 
 function App() {
