@@ -7,6 +7,13 @@ import ProjectLayout from './layouts/ProjectLayout';
 /*
   TODO: 
     1. Make SkillLayout responsive
+    2. Make ProjectLayout responsive
+    3. Change About componenet to AboutLayout
+    4. Add ExperienceLayout
+    5. Add ContactsLayout
+    6. Add routers
+    7. Add project pages
+    8. Add experience page (meybe not ?)
 */
 
 function App() {
