@@ -14,7 +14,7 @@ function Skill({name, icon}){
                     flex justify-between items-center"
         >
             <h3 className="font-orbitron text-left w-1/2">{name}</h3>
-            <img src={icon} alt={name + "icon"} className=" w-5 h-5"></img>
+            <img src={icon} alt={name + "icon"} className="w-10 h-10"></img>
         </motion.div>
     );
 }
