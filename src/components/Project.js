@@ -1,6 +1,23 @@
+import { motion } from "framer-motion";
+
 function Project({name, link, techs}){
     return(
-        <div className="w-full
+        <motion.div
+            initial={{ 
+                scale: 0.1, 
+                rotate: -90, 
+            }}
+            whileInView={{ 
+                scale: [0.1, 0.1, 1], 
+                rotate: [-90, 0, 0],
+            }}
+            transition={{ 
+                duration: 1.5,
+                ease: "easeInOut",
+                times: [0, 0.5, 1]
+            }}
+            viewport={{once: true}}
+            className="w-full
                     mt-2 p-3
                     md:mt-0 
                     border-b border-r border-solid border-white
@@ -22,7 +39,7 @@ function Project({name, link, techs}){
                     ))}
                 </ul>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
