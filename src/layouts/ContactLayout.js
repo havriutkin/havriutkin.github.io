@@ -1,5 +1,11 @@
+import Contact from "../components/Contact";
+
 function ContactLayout(){
-    
+    const contacts = [
+        {preText: 'Email Me', service: 'havriutkin@gamil.com', link: 'mailto:havriutkin@gmail.com'},
+        {preText: 'Check Out My', service: 'GitHub', link: 'https://github.com/havriutkin'},
+        {preText: 'Find Me On', service: 'LinkedIn', link: 'https://www.linkedin.com'},
+    ];
 
     return (
         <div className="h-screen w-3/4 md:w-1/2
@@ -14,13 +20,9 @@ function ContactLayout(){
                 <div className="p-3
                                 flex flex-col justify-between items-center gap-5
                                 font-orbitron text-base">
-                    <p>Email Me: <span className="underline">havriutkin@gmail.com</span></p>
-                    <p>Check Out <a className="underline text-blue-800
-                                            visited:text-gray-800
-                                            hover:no-underline" href="https://github.com/havriutkin">My GitHub</a></p>
-                    <p>Find Me <a className="underline text-blue-800
-                                            visited:text-gray-800
-                                            hover:no-underline" href="https://www.linkedin.com">On LinkedIn</a></p>
+                    {contacts.map(contact => (
+                        <Contact preText={contact.preText} service={contact.service} link={contact.link}/>
+                    ))}
                 </div>
             </div>
         </div>
