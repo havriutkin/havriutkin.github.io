@@ -8,9 +8,9 @@ function ProjectLayout(){
         {'name': 'Rhythm Dev', 'link': '#', 'techs': ['React', 'Tailwind', 'FramerMotion']},
     ];
     return (
-        <div className="h-screen w-3/4
+        <div className="h-screen w-3/4 md:w-1/2
                         flex flex-col justify-center items-center">
-            <h2 className="text-white font-orbitron font-bold text-lg m-2 md:text-xl md:m-4">
+            <h2 className="text-white font-orbitron font-bold text-xl m-2 md:text-xl md:m-4">
                 MY PROJECTS
             </h2>
             <div className="w-full

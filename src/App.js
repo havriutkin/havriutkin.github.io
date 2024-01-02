@@ -4,6 +4,7 @@ import AboutLayout from './layouts/AboutLayout';
 import SkillLayout from './layouts/SkillLayout';
 import ProjectLayout from './layouts/ProjectLayout';
 import BackgroundLayout from './layouts/BackgroundLayout';
+import ExperienceLayout from './layouts/ExperienceLayout';
 
 /*
   TODO: 
@@ -24,6 +25,7 @@ function App() {
       <AboutLayout/>
       <SkillLayout/>
       <ProjectLayout/>
+      <ExperienceLayout/>
     </div>
   );
 }
