@@ -8,13 +8,11 @@ import ContactLayout from './layouts/ContactLayout';
 
 /*
   TODO: 
-    1. Make SkillLayout responsive
-    2. Make ProjectLayout responsive
-    3. Change About componenet to AboutLayout
-    5. Add ContactsLayout
-    6. Add routers
-    7. Add project pages
-    8. Add CV link
+    1. Make sure everything is responsive
+    2. Add react router
+    3. Create page for projects
+    4. Clean up
+    5. Deploy
 */
 
 function App() {

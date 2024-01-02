@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 function Card({children}){
     return(
         <div className="w-full
