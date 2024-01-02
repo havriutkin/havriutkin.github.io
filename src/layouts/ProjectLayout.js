@@ -1,3 +1,4 @@
+import Card from "../components/Card";
 import Project from "../components/Project";
 
 function ProjectLayout(){
@@ -13,17 +14,14 @@ function ProjectLayout(){
             <h2 className="text-white font-orbitron font-bold text-xl m-2 md:text-xl md:m-4">
                 MY PROJECTS
             </h2>
-            <div className="w-full
-                            sm:flex sm:flex-col sm:around sm:items-center
-                            md:grid md:grid-cols-2
-                            bg-gradient-to-br from-blush-pink-400 to-blush-pink-800
-                            border border-solid border-white
-                            transition-shadow duration-500
-                            hover:shadow-neon"> 
-                {projects.map(project => (
-                    <Project name={project.name} link={project.link} techs={project.techs}/>
-                ))}
-            </div>
+            <Card>
+                <div className="sm:flex sm:flex-col sm:around sm:items-center
+                                md:grid md:grid-cols-2"> 
+                    {projects.map(project => (
+                        <Project name={project.name} link={project.link} techs={project.techs}/>
+                    ))}
+                </div>
+            </Card>
         </div>
     )
 }

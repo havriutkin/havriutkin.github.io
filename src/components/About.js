@@ -2,8 +2,7 @@ import { motion } from "framer-motion";
 import personIcon from "../assets/person.png";
 
 //drop-shadow-glow
-function About(){
-
+function About({text}){
     return(
         <motion.div 
             initial={{ 
@@ -33,7 +32,8 @@ function About(){
             <div className="font-orbitron text-center">
                 <h3 className="text-xs  ml-6 mr-6
                             md:text-base md:ml-12 md:mr-12
-                            lg:text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            lg:text-lg">
+                    {text}
                 </h3>
             </div>
         </motion.div>
