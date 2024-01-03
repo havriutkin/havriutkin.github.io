@@ -8,7 +8,7 @@ function Skill({name, icon}){
             viewport={{once: true}}
             transition={{ duration: 1.5 }}
             className="w-full
-                    mt-0 p-3 md:mt-0
+                    mt-0 p-3
                     border-b border-solid border-white md:border-r
                     text-black
                     flex justify-between items-center

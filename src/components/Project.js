@@ -18,11 +18,11 @@ function Project({name, link, techs}){
             }}
             viewport={{once: true}}
             className="w-full
-                    mt-0 p-3 md:mt-0 
+                    mt-0 p-3
                     border-b border-r border-solid border-white
                     text-black
                     flex justify-between items-center
-                    hover:transition-colors
+                    hover:transition-colors hover:duration-500
                     hover:bg-blush-pink-400">
             <h3 className="w-1/3 
                             font-orbitron text-center font-bold">
