@@ -10,9 +10,11 @@ function SkillLayout(){
                         flex flex-col justify-center items-center">
             <h2 className="text-white font-orbitron font-bold text-xl m-2 md:text-xl md:m-4">MY SKILLS</h2>
             <Card>
-                {skillNames.map(skill => (
-                    <Skill name={skill} icon={`./logos/${skill}Logo.svg`}/>
-                ))}
+                <div className="flex flex-col md:grid md:grid-cols-3">
+                    {skillNames.map(skill => (
+                        <Skill name={skill} icon={`./logos/${skill}Logo.svg`}/>
+                    ))}
+                </div>
             </Card>
         </div>
     );
