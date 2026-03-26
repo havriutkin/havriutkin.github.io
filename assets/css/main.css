@@ -165,6 +165,13 @@ main.container {
   margin: 0 auto 2rem;
 }
 
+.hero-disclaimer {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin: -1rem auto 1.5rem;
+  opacity: 0.7;
+}
+
 .hero-cta {
   display: flex;
   gap: 1rem;

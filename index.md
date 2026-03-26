@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Home
-hero_title: Hi, I'm Havriutkin
-hero_subtitle: Software developer passionate about building useful things. Here you'll find my projects, thoughts, and experiments.
+hero_title: Hi, I'm Vladyslav Havriutkin
+hero_subtitle: MSCS student from Georgia Institute of Technology. I'm interested in Robotics and Machine Learning. Here you'll find my projects, thoughts and experiments. 
 ---
 
 <section class="home-section">
