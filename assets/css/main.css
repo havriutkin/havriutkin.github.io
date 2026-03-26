@@ -191,6 +191,10 @@ main.container {
   margin-top: 1rem;
 }
 
+.page-content .project-card {
+  text-decoration: none;
+}
+
 .project-card {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -212,6 +216,7 @@ main.container {
   color: #fff;
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
+  text-decoration: underline;
 }
 
 .project-card p {
