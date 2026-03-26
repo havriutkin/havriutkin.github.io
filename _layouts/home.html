@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">{{ page.hero_title | default: site.title }}</h1>
+    <p class="hero-subtitle">{{ page.hero_subtitle | default: site.description }}</p>
+    <div class="hero-cta">
+      <a href="{{ '/projects' | relative_url }}" class="btn btn-primary">View Projects</a>
+      <a href="{{ '/blog' | relative_url }}" class="btn btn-secondary">Read Blog</a>
+    </div>
+  </div>
+</section>
+
+{{ content }}
