@@ -7,3 +7,4 @@ tech: [ROS2, GTSAM, Gazebo, Ardupilot]
 
 ## Overview 
 I'm still working on this post.
+Meanwhile, there is a full pdf version of the report on this project here: [Download PDF]({{ '/assets/pdfs/Drone-Mapping.pdf' | relative_url }})
