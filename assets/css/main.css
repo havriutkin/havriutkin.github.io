@@ -39,6 +39,12 @@ main.container {
   min-height: calc(100vh - 120px);
 }
 
+figcaption {
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 0.4em;
+}
+
 /* ===== Header ===== */
 .site-header {
   background: var(--color-surface);
