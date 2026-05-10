@@ -465,6 +465,7 @@ figcaption {
 
 .section-more a:hover { text-decoration: underline; }
 
+
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
   .header-inner { flex-wrap: wrap; height: auto; padding: 0.75rem 0; gap: 0.5rem; }
@@ -472,4 +473,13 @@ figcaption {
   .hero { padding: 3rem 0 2rem; }
   .footer-inner { flex-direction: column; text-align: center; }
   .footer-nav a:first-child { margin-left: 0; }
+}
+
+
+/* ===== Other Utility Classes ===== */
+.equation-highlight {
+  border-left: 4px solid var(--color-accent);
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem 0;
+  background: var(--color-surface);
 }
