@@ -297,6 +297,35 @@ figcaption {
   border-bottom: 1px solid var(--color-border);
 }
 
+.post-cover-image {
+  margin: -0.5rem 0 1.5rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.post-cover-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.post-cover-image:hover img {
+  transform: scale(1.02);
+}
+
+.cover-image-caption {
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  margin: 0;
+  font-style: italic;
+}
+
 .post-title, .page-title {
   font-size: clamp(1.5rem, 3vw, 2.2rem);
   font-weight: 800;
