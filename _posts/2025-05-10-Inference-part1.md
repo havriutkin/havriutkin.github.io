@@ -5,7 +5,7 @@ date: 2025-05-10 12:00:00 +0000
 cover_image: /assets/images/inference-1-cover.png
 cover_image_alt: "Batman slapping meme about the importance of prior belief."
 tags: [mathematics, probability, optimization]
-excerpt: "Overview of optimization approaches in MLE?"
+excerpt: "Overview of inference methods."
 ---
 
 ## Introduction 
